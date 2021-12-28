@@ -2,7 +2,6 @@
 title: "测试文章"
 description: "文章简介"
 date: "2021-12-28 10:00:00+0800"
-slug: "test-post"
 featuredImage: "cover.png"
 categories:
     - 博客

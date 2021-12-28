@@ -19,7 +19,7 @@ theme = "LoveIt"
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   #  日期格式
-  dateFormat = "2006-01-02"
+  dateFormat = "2006年1月2日"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["img/levana.jpeg"]
 
@@ -73,7 +73,7 @@ theme = "LoveIt"
       # 标题名称
       name = "levana"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = "♡"
+      pre = "<span style='color:#f5317f;'><i class='fas fa-heart fa-fw'></i></span>"
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
       #  是否为标题显示打字机动画
@@ -102,7 +102,7 @@ theme = "LoveIt"
     # section 页面每页显示文章数量
     paginate = 20
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "1月2日"
     # RSS 文章数目
     rss = 10
 
@@ -111,7 +111,7 @@ theme = "LoveIt"
     # list 页面每页显示文章数量
     paginate = 20
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "1月2日"
     # RSS 文章数目
     rss = 10
 
@@ -533,3 +533,20 @@ theme = "LoveIt"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 1
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 2
+  [[menu.main]]
+    identifier = "loveday"
+    pre = "<b>纪念日</b>"
+    url = "/loveday/"
+    weight = 3
