@@ -1,4 +1,4 @@
-baseURL = "http://blog.levana.fun/"
+baseURL = "https://www.levana.fun"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -93,7 +93,7 @@ theme = "LoveIt"
     # 网站创立年份
     since = 2021
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = "ICP 12345"
+    icp = "<a href='https://beian.miit.gov.cn/'>皖ICP备2021019066号-1</a>"
     # 许可协议信息 (支持 HTML 格式)
     license = ''
 
@@ -491,7 +491,7 @@ theme = "LoveIt"
 [author]
   name = "Levana"
   email = "xxx@xxx"
-  link = "http://blog.levana.fun"
+  link = "https://www.levana.fun"
 
 # 网站地图配置
 [sitemap]
