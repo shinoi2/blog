@@ -3,11 +3,6 @@ title: "测试文章"
 description: "文章简介"
 date: "2021-12-28 10:00:00+0800"
 featuredImage: "cover.png"
-categories:
-    - 博客
-tags:
-    - Test
-    - Blog
 ---
 # 测试文章
 ### Hello Blog

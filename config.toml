@@ -536,17 +536,7 @@ theme = "LoveIt"
 
 [menu]
   [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 1
-  [[menu.main]]
-    identifier = "categories"
-    name = "分类"
-    url = "/categories/"
-    weight = 2
-  [[menu.main]]
     identifier = "loveday"
     pre = "<b>纪念日</b>"
     url = "/loveday/"
-    weight = 3
+    weight = 1
